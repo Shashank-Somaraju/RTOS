@@ -1,0 +1,6 @@
+sending voice message:
+how to compile:
+server: gcc voipserver.c -lpulse-simple -lpulse
+after this: ./a.out
+client: gcc voipclient.c -lpulse-simple -lpulse
+after this: ./a.out 127.0.0.1
